@@ -1,0 +1,5 @@
+all:
+	cl /c src/*.c 
+	link *.obj advapi32.lib shell32.lib ntdll.lib kernel32.lib user32.lib /OUT:isdetect.exe /subsystem:console
+	del *.obj
+	isdetect.exe
