@@ -5,7 +5,7 @@ Syntax:
 ```
 usage: isdetect [instruction] [args (optional)]
 Example: isdetect --enable => enables the interactive service detection
-isdetect --run taskmgr.exe => starts a service that puts cmd.exe in the interactive service detection
+isdetect --run taskmgr.exe => starts a service that puts taskmgr.exe in the interactive service detection
 ```
 
 Won't work on Windows 10 and Above because they removed the Interactive Service Detection
